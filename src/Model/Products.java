@@ -1,4 +1,4 @@
-package Entities;
+package Model;
 
 import java.util.Objects;
 
@@ -21,6 +21,10 @@ public class Products {
 
     public int getId(){
         return id;
+    }
+
+    public void setId(int id){
+        this.id = id;
     }
 
     public String getName() {
